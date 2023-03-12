@@ -1,25 +1,12 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>Marvelous - Katherine Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-	<!-- Your portfolio should have a welcome section with an id of welcome-section
-	The welcome section should have an h1 element that contains text
-	Your portfolio should have a projects section with an id of projects
-	The projects section should contain at least one element with a class of project-tile to hold a project
-	The projects section should contain at least one link to a project
-	Your portfolio should have a navbar with an id of navbar
-	The navbar should contain at least one link that you can click on to navigate to different sections of the page
-	Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
-	Your portfolio should have at least one media query
-	The height of the welcome section should be equal to the height of the viewport
-	The navbar should always be at the top of the viewport -->
-
 	<nav id="navbar" class="nav">
 		<ul class="nav-list">
 		  <li>
@@ -33,10 +20,28 @@
 		  </li>
 		</ul>
 	</nav>
+</head>
+
+<body>
+	
+
+	<!-- Your portfolio should have a welcome section with an id of welcome-section
+	The welcome section should have an h1 element that contains text
+	Your portfolio should have a projects section with an id of projects
+	The projects section should contain at least one element with a class of project-tile to hold a project
+	The projects section should contain at least one link to a project
+	Your portfolio should have a navbar with an id of navbar
+	The navbar should contain at least one link that you can click on to navigate to different sections of the page
+	Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+	Your portfolio should have at least one media query
+	The height of the welcome section should be equal to the height of the viewport
+	The navbar should always be at the top of the viewport -->
+
+	
 	<main>
 		<div id="welcome-section" style="justify-content: center;">
 			<h1 class="project-tile">About Marvelous and Amin</h1>
-			<p style="text-align: center; justify-content: center;">Marvelous is a student from Nigeria, and a team member with Katherine, <br> working together on Portfolio challenge. Yeah Amin is a good guy and fun working with,<br> her level of understanding and 
+			<p style="text-align: center; justify-content: center;">Marvelous is a student from Nigeria, and a team member with Amin, <br> working together on Portfolio challenge. Yeah Amin is a good guy and fun working with,<br> her level of understanding and 
 				professionalism is top notch.<br>
 				will love to work with if considered admission into microverse</p>
 
@@ -94,3 +99,16 @@
 	</footer>
 </body>
 </html>
+<style>
+	@media only screen and (max-width: 600px){
+    body {
+        background-color: rgb(166, 241, 166);
+      }
+	/*Big smartphones [426px -> 600px]*/
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}​
+</style>
