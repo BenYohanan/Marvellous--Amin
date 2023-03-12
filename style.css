@@ -1,5 +1,10 @@
 /* Global styles */
-
+@media only screen and (max-width: 600px){
+    body {
+        background-color: rgb(166, 241, 166);
+      }
+	/*Big smartphones [426px -> 600px]*/
+}
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
